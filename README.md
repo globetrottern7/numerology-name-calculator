@@ -1,30 +1,30 @@
-# Numerology Name & DOB Calculator
+# Numerology Name Calculator
 
-A simple English-language web calculator based on the numerology framework supplied in the project source material.
+An English-first, privacy-friendly client-side numerology application based on the supplied numerology framework, expanded with clearly labelled conventional numerology calculations.
 
 ## Features
+- Birth Number / Moolank
+- Destiny Number / Bhagyank using the supplied formula
+- Chaldean Name Number
+- Pythagorean Name Number
+- Soul / vowel number
+- Personality / consonant number
+- Maturity Number
+- Personal Year
+- Birth/Destiny and two-person compatibility
+- Name spelling explorer
+- Lo Shu Grid
+- Mobile, vehicle and house-number analyzer
+- Transparent calculation working
+- Responsive mobile-friendly interface
 
-- Full name input
-- Date of birth input
-- Birth Number calculation
-- Destiny Number calculation
-- Planet and core-quality interpretation for numbers 1–9
-- Birth Number / Destiny Number relationship
-- Directional compatibility result
-- Starting-initial display
+## Methodology
+The supplied source material did not provide an alphabet-to-number conversion table. Chaldean and Pythagorean mappings are therefore added as explicitly labelled conventional systems rather than silently treating them as part of the supplied framework.
 
-## Destiny Number Formula
+The supplied Destiny Number implementation is: Birth Number + birth month + sum of the birth-year digits, reduced to one digit.
 
-This implementation follows the supplied examples:
-
-1. Reduce the birth day to the Birth Number.
-2. Add the Birth Number + birth month + sum of the digits in the birth year.
-3. Reduce the result to a single digit.
-
-## Name Numerology
-
-The source material states that initials and name letters have numerical values, but it does not provide an alphabet-to-number conversion table. This project therefore does not invent a Chaldean or Pythagorean mapping.
+## Privacy
+All calculations run locally in the browser. No server or database is required.
 
 ## Disclaimer
-
-This calculator reproduces the supplied numerology framework for informational/entertainment purposes. Numerology is not scientifically validated and should not be treated as a reliable predictor of future events.
+Numerology is a belief system and is not scientifically validated. Results are for informational or entertainment purposes and should not replace professional medical, financial, legal, career or relationship advice.
